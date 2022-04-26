@@ -1,5 +1,7 @@
 package com.daniel.ethan.cs160design07;
 
-public class MainActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
 
 }
