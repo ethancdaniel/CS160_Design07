@@ -23,4 +23,19 @@
     <string name="user2_reply">Have you been taking your dog on longer walks, he just might be tired.</string>
     <string name="day5_update">Last updated 5 days ago</string>
     <string name="add_comment">Type your comment…</string>
+    <string name="share">Share</string>
+
+    <string name="home_action_title">Home</string>
+    <string name="home_title1">Dog is Sleeping 12 Hours A Day</string>
+    <string name="home_title2">My parrot has become very loud during the night</string>
+    <string name="home_title3">Funny Lizard Behavior</string>
+    <string name="home_subtitle1">4 hours ago • German Shepherd • 10 months old</string>
+    <string name="home_subtitle2">10 hours ago • Cockatoo Parakeet • 1 year old</string>
+    <string name="home_subtitle3">1 day ago • Caiman Lizard • 10 months old</string>
+    <string name="home_paragraph2">Ever since I got my parakeet a new cage it starts chirping a lot more frequently. Any advice on how to solve this issue is appreciated! </string>
+    <string name="home_paragraph3">Lizard keeps hiding its food in the sand before eating it. Is this behavior okay or do I need....</string>
+    <string name="home_comments1">100 comments</string>
+    <string name="home_comments2">50 comments</string>
+    <string name="home_comments3">50 comments</string>
+
 </resources>
