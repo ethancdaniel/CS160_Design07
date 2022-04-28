@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">CS160 Design 07</string>
     <string name="main_card_title1">Dog is Sleeping 12 Hours a Day</string>
+    <string name="title_activity_singular_post">Singular_Post</string>
+    <string name="view_post">View Post</string>
+    <string name="post_header">My Dog is Sleeping 12 Hours A Day</string>
+    <string name="tag_one">Adult</string>
+    <string name="tag_two">Sleep Behavior</string>
+    <string name="post_description">Hi everyone, ever since I moved to my new house my dog started sleeping a lot more. Previously he slept about 10 hours a day, but now it is about 12 hours a day. Is this something I should be worrying about or this behavior just the dog getting used to the new house. I added some pictures of my dog here in case it helps.</string>
+    <string name="single_post_label">German Shepard • 10 • Berkeley, CA</string>
+    <string name="vet_answer">Veterinarian Answer</string>
+    <string name="vet_name">Jen Y.</string>
+    <string name="vet_tag">300 Answers | Berkeley, CA</string>
+    <string name="vet_reply">You shouldn’t have to worry too much. Make sure your dog isn’t getting bored and has things to do during the day. If the behavior persists it is a good idea to go to the vet for a checkup.</string>
+    <string name="month_update">Last updated 1 month ago</string>
+    <string name="community_answer">Community Feedback</string>
+    <string name="user1">DoggoHaver5</string>
+    <string name="user1_tag">15 answers | Berkeley, CA</string>
+    <string name="user1_reply">My dog did the same thing, it just takes time for them to adjust.</string>
+    <string name="day10_update">Last updated 10 days ago</string>
+    <string name="user2">CatCheese33</string>
+    <string name="user2_tag">10 answers | Santa Rosa, CA</string>
+    <string name="user2_reply">Have you been taking your dog on longer walks, he just might be tired.</string>
+    <string name="day5_update">Last updated 5 days ago</string>
+    <string name="add_comment">Type your comment…</string>
 </resources>
