@@ -12,9 +12,14 @@
         <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/fragment_second.xml" value="0.18385416666666668" />
         <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/mipmap-anydpi-v26/tags.xml" value="0.1915" />
         <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/mipmap-anydpi-v26/tags_round.xml" value="0.1915" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.173" />
+        <entry key="app/src/main/res/drawable/ic_comment.xml" value="0.173" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.173" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2341485507246377" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2341485507246377" />
-        <entry key="app/src/main/res/layout/activity_view_post.xml" value="0.2341485507246377" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19560546875" />
+        <entry key="app/src/main/res/layout/activity_singular_post.xml" value="0.224420166015625" />
+        <entry key="app/src/main/res/layout/activity_view_post.xml" value="0.20523986816406253" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1640625" />
       </map>
     </option>
   </component>
