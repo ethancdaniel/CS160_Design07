@@ -1,5 +1,6 @@
 package com.daniel.ethan.cs160design07;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -20,5 +21,10 @@ public class MainActivity extends AppCompatActivity {
             actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.primary)));
         }
 
+    }
+
+    public void toSingularPost(View view) {
+        Intent intent = new Intent(this, Singular_Post.class);
+        startActivity(intent);
     }
 }
