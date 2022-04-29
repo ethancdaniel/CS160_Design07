@@ -23,4 +23,21 @@
     <string name="user2_reply">Have you been taking your dog on longer walks, he just might be tired.</string>
     <string name="day5_update">Last updated 5 days ago</string>
     <string name="add_comment">Type your comment…</string>
+    <string-array name="searchable_animals">
+        <item>Goldfish</item>
+        <item>Golden Koi</item>
+        <item>Golden Retriever</item>
+        <item>German Shepard</item>
+        <item>Turtle</item>
+        <item>Maine Coon</item>
+        <item>Husky</item>
+        <item>Cockatoo</item>
+        <item>Macaw</item>
+        <item>Beagle</item>
+        <item>Hamster</item>
+        <item>Rat</item>
+        <item>Chameleon</item>
+        <item>Budgie</item>
+    </string-array>
+    <string name="animal_lookUp">Search For Animal Here</string>
 </resources>
