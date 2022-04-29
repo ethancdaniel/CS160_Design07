@@ -1,18 +1,14 @@
 <resources>
     <string name="app_name">CS160 Design 07</string>
-<<<<<<< HEAD
     <string name="title_activity_create_post">CreatePost</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-
     <color name="beige">#F5E9E2</color>
-=======
     <string name="main_card_title1">Dog is Sleeping 12 Hours a Day</string>
     <string name="title_activity_singular_post">Singular_Post</string>
     <string name="view_post">View Post</string>
@@ -66,5 +62,4 @@
     <string name="home_comments1">100 comments</string>
     <string name="home_comments2">50 comments</string>
     <string name="home_comments3">50 comments</string>
->>>>>>> 6d825d4f7d3e982ba40e49d720f4e7e5f5364773
 </resources>

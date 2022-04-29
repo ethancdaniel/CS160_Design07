@@ -14,21 +14,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
         <!-- Customize your theme here. -->
     </style>
-<<<<<<< HEAD
-=======
-
->>>>>>> 6d825d4f7d3e982ba40e49d720f4e7e5f5364773
     <style name="Theme.CS160Design07.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-<<<<<<< HEAD
     <style name="Theme.CS160Design07.AppBarOverlay"
         parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-=======
-
-    <style name="Theme.CS160Design07.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
->>>>>>> 6d825d4f7d3e982ba40e49d720f4e7e5f5364773
+    <!--<style name="Theme.CS160Design07.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    Defined Twince So I Commented This One Out-->
     <style name="Theme.CS160Design07.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
