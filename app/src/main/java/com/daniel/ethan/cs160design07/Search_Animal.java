@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 public class Search_Animal extends AppCompatActivity {
-    String[] animals = getResources().getStringArray(R.array.searchable_animals);
+    String[] animals = { "Goldfish", "Golden Koi", "Golden Retriever", "German Shepard", "Turtle", "Maine Coon", "Husky", "Cockatoo", "Macaw", "Beagle", "Hamster", "Rat", "Chameleon", "Budgie"};
     ListView listView;
     ArrayAdapter<String> arrayAdapter;
     @Override
@@ -19,6 +19,7 @@ public class Search_Animal extends AppCompatActivity {
         setContentView(R.layout.activity_search_animal);
         listView = findViewById(R.id.allAnimals);
         arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, animals);
+        listView.setAdapter(arrayAdapter);
     }
 
     @Override
@@ -35,7 +36,9 @@ public class Search_Animal extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String s) {
+                System.out.println(s);
                 arrayAdapter.getFilter().filter(s);
+                System.out.println(arrayAdapter.getCount());
                 return false;
             }
         });
