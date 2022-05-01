@@ -23,4 +23,9 @@ public class SuppliesChecklist extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void toFoodInfo(View view) {
+        Intent intent = new Intent(this, HelpfulLinks.class);
+        startActivity(intent);
+    }
 }

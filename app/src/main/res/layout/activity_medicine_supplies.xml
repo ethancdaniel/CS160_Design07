@@ -55,6 +55,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="prevActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_backward_ios" />
@@ -312,6 +313,7 @@
         android:layout_marginTop="188dp"
         android:backgroundTint="@color/primary"
         android:fontFamily="@font/monr"
+        android:onClick="toHome"
         android:text="Buy Now"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

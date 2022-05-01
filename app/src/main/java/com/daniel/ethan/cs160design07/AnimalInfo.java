@@ -23,4 +23,9 @@ public class AnimalInfo extends AppCompatActivity {
         Intent intent = new Intent(this, SuppliesChecklist.class);
         startActivity(intent);
     }
+
+    public void toResolvedPosts(View view) {
+        Intent intent = new Intent(this, ResolvedPosts.class);
+        startActivity(intent);
+    }
 }

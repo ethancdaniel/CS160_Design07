@@ -58,6 +58,7 @@
         android:backgroundTint="#D44D5C"
         android:elevation="4dp"
         android:fontFamily="@font/monr"
+        android:onClick="toResolvedPosts"
         android:text="White Spots on Fish"
         android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"

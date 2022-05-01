@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CS160Design07">
         <activity
+            android:name=".HelpfulLinks"
+            android:exported="false" />
+        <activity
+            android:name=".ResolvedPosts"
+            android:exported="false" />
+        <activity
             android:name=".FoodOptions"
             android:exported="false" />
         <activity
