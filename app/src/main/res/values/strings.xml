@@ -48,6 +48,12 @@
         <item>Chameleon</item>
         <item>Budgie</item>
     </string-array>
+    <string-array name="visibilty">
+        <item>Everyone</item>
+        <item>Only Vets</item>
+        <item>Private</item>
+    </string-array>
+    <string name="attach">Attachments</string>
     <string name="animal_lookUp">Search For Animal Here</string>
     <string name="share">Share</string>
     <string name="home_action_title">Home</string>
@@ -62,4 +68,7 @@
     <string name="home_comments1">100 comments</string>
     <string name="home_comments2">50 comments</string>
     <string name="home_comments3">50 comments</string>
+    <string name="t1">Puppy</string>
+    <string name="t2">Behavior</string>
+    <string name="t3">Urgent</string>
 </resources>
