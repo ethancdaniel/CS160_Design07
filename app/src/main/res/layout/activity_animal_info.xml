@@ -12,114 +12,141 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/monr"
         android:text="Goldfish"
         android:textColor="#000000"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="31dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="273dp"
         android:layout_height="59dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#D44D5C"
+        android:elevation="4dp"
         android:fontFamily="@font/monr"
+        android:onClick="toChecklist"
         android:text="Get Supplies"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="325dp"
-        android:elevation="4dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="273dp"
         android:layout_height="59dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#D44D5C"
         android:elevation="4dp"
         android:fontFamily="@font/monr"
         android:text="Disease Y"
         android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="589dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="273dp"
         android:layout_height="59dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#D44D5C"
         android:elevation="4dp"
         android:fontFamily="@font/monr"
         android:text="White Spots on Fish"
         android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="80dp"
         android:translationZ="100dp"
-        app:srcCompat="@drawable/arrow_forward_ios"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="546dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/arrow_forward_ios" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="273dp"
         android:layout_height="59dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#D44D5C"
         android:elevation="4dp"
         android:fontFamily="@font/monr"
         android:text="Disease X"
         android:textAlignment="textStart"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="526dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="80dp"
         android:translationZ="100dp"
-        app:srcCompat="@drawable/arrow_forward_ios"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/arrow_forward_ios" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="80dp"
         android:translationZ="100dp"
-        app:srcCompat="@drawable/arrow_forward_ios"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="607dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/arrow_forward_ios" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="246dp"
         android:layout_height="31dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/mb"
         android:text="Common Problems"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="412dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/pet_info_card"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="88dp" />
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/pet_info_card" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/arrow_backward_ios"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="14dp" />
+        android:onClick="toHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_backward_ios" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
