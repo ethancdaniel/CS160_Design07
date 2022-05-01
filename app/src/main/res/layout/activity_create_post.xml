@@ -232,6 +232,7 @@
             android:layout_height="wrap_content"
             android:text="@string/attach"
             android:textColor="@color/primary"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="33dp"
             tools:layout_editor_absoluteY="526dp" />
 
