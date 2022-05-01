@@ -130,7 +130,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Antibacterial Fluid ">
+                android:text="Antibacterial Fluid ">
 
             </CheckBox>
 
@@ -173,7 +173,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Water Test Kit">
+                android:text="Water Test Kit">
 
             </CheckBox>
 
@@ -208,7 +208,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="API Goldfish Protect">
+                android:text="API Goldfish Protect">
 
             </CheckBox>
 
@@ -244,7 +244,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Warm Water">
+                android:text="Warm Water">
 
             </CheckBox>
 
@@ -286,8 +286,8 @@
                 android:focusable="true"
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
-                android:textSize="11sp"
-                tools:text="Non-Iodized Salt">
+                android:text="Non-Iodized Salt"
+                android:textSize="11sp">
 
             </CheckBox>
 
@@ -310,13 +310,12 @@
         android:id="@+id/button9"
         android:layout_width="273dp"
         android:layout_height="59dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="120dp"
         android:backgroundTint="@color/primary"
         android:fontFamily="@font/monr"
         android:onClick="toHome"
         android:text="Buy Now"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView40" />
 
