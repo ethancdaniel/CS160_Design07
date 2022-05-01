@@ -17,6 +17,7 @@ public class CreatePost extends AppCompatActivity {
     }
 
     public void prevActivity(View view) {
+        this.finish();
         super.onBackPressed();
     }
 }

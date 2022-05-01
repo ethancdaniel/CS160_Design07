@@ -6,21 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MedicineSupplies extends AppCompatActivity {
+public class ResolvedPosts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_medicine_supplies);
+        setContentView(R.layout.activity_resolved_posts);
     }
 
-    public void toHome(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void toMedicineChecklist(View view) {
+        Intent intent = new Intent(this, MedicineSupplies.class);
         startActivity(intent);
-    }
-
-    public void prevActivity(View view) {
-        this.finish();
-        super.onBackPressed();
     }
 }

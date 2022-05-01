@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CS160Design07">
         <activity
+            android:name=".HelpfulLinks"
+            android:exported="false" />
+        <activity
+            android:name=".ResolvedPosts"
+            android:exported="false" />
+        <activity
             android:name=".MedicineSupplies"
             android:exported="false" />
         <activity
@@ -30,6 +36,9 @@
             android:theme="@style/Theme.CS160Design07.NoActionBar" />
         <activity
             android:name=".Singular_Post"
+            android:exported="false" />
+        <activity
+            android:name=".Search_Animal"
             android:exported="false" />
         <activity
             android:name=".Login"
