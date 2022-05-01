@@ -76,6 +76,11 @@
     <string name="helpful_links_description2">This high quality pellet food is designed to help bring out the color of the goldfish. Sick fish often like food that sinks to the floor so it’s good to keep around.</string>
     <string name="helpful_links_description3">This food has high quality ingredients and has proven immunostimulants. It also has ingredients that prevents swim bladder problems in delicate fish</string>
 
+    <string name="resolved_posts">Resolved Posts</string>
+    <string name="resolved_posts_title">Spots on my fish</string>
+    <string name="resolved_posts_subtitle">Goldfish • 1 • Orinda, CA</string>
+    <string name="resolved_posts_post_stats">5 views • 2 comments</string>
+    <string name="resolved_posts_medicine">Medicine Supplies</string>
 
     <string name="t1">Puppy</string>
     <string name="t2">Behavior</string>
