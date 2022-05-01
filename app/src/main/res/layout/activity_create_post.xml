@@ -96,7 +96,7 @@
             android:id="@+id/text1"
             android:layout_width="168dp"
             android:layout_height="34dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:gravity="center"
             android:text="Create a Post"
             android:textColor="#000000"
@@ -135,8 +135,7 @@
             android:id="@+id/spinner"
             android:layout_width="260dp"
             android:layout_height="35dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginStart="28dp"
             android:contentDescription="Everyone"
             android:entries="@array/visibilty"
             android:spinnerMode="dropdown"
@@ -175,20 +174,10 @@
             android:layout_width="117dp"
             android:layout_height="93dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/dog"
-            tools:layout_editor_absoluteY="555dp" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="145dp"
-            android:layout_height="62dp"
-            android:layout_marginTop="4dp"
-            android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
-            app:srcCompat="@drawable/submit" />
+            app:layout_constraintTop_toBottomOf="@+id/textView39"
+            app:srcCompat="@drawable/dog" />
 
         <TextView
             android:id="@+id/textView36"
@@ -230,11 +219,13 @@
             android:id="@+id/textView39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
             android:text="@string/attach"
             android:textColor="@color/primary"
             android:textSize="16sp"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="526dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
         <ImageView
             android:id="@+id/imageView10"
@@ -275,6 +266,28 @@
             app:layout_constraintStart_toEndOf="@+id/imageView15"
             app:layout_constraintTop_toBottomOf="@+id/text3"
             app:srcCompat="@drawable/ic_file" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="17dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="11dp"
+            android:onClick="prevActivity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="132dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:onClick="toHome"
+            android:text="@string/submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
