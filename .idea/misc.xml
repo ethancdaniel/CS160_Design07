@@ -15,11 +15,15 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.173" />
         <entry key="app/src/main/res/drawable/ic_comment.xml" value="0.173" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.173" />
-        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.37486572265625007" />
-        <entry key="app/src/main/res/layout/activity_create_post.xml" value="0.5642842610677083" />
+        <entry key="app/src/main/res/drawable/rounded_rectangle.xml" value="0.2815" />
+        <entry key="app/src/main/res/drawable/rounded_rectangle_comment.xml" value="0.2815" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.2649093627929688" />
+        <entry key="app/src/main/res/layout/activity_create_post.xml" value="0.32459920247395835" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19238281249999992" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19560546875" />
-        <entry key="app/src/main/res/layout/activity_singular_post.xml" value="0.224420166015625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4660568237304688" />
+        <entry key="app/src/main/res/layout/activity_search_animal.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_singular_post.xml" value="0.34976806640625" />
+        <entry key="app/src/main/res/layout/activity_verify_account.xml" value="0.2708151424632353" />
         <entry key="app/src/main/res/layout/activity_view_post.xml" value="0.20523986816406253" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1640625" />
       </map>
