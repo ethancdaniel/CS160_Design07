@@ -1,3 +1,89 @@
 <resources>
     <string name="app_name">CS160 Design 07</string>
+    <string name="title_activity_create_post">CreatePost</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <color name="beige">#F5E9E2</color>
+    <string name="main_card_title1">Dog is Sleeping 12 Hours a Day</string>
+    <string name="title_activity_singular_post">Singular_Post</string>
+    <string name="view_post">View Post</string>
+    <string name="post_header">My Dog is Sleeping 12 Hours A Day</string>
+    <string name="tag_one">Adult</string>
+    <string name="tag_two">Sleep Behavior</string>
+    <string name="post_description">Hi everyone, ever since I moved to my new house my dog started sleeping a lot more. Previously he slept about 10 hours a day, but now it is about 12 hours a day. Is this something I should be worrying about or this behavior just the dog getting used to the new house. I added some pictures of my dog here in case it helps.</string>
+    <string name="single_post_label">German Shepard • 10 • Berkeley, CA</string>
+    <string name="vet_answer">Veterinarian Answer</string>
+    <string name="vet_name">Jen Y.</string>
+    <string name="vet_tag">300 Answers | Berkeley, CA</string>
+    <string name="vet_reply">You shouldn’t have to worry too much. Make sure your dog isn’t getting bored and has things to do during the day. If the behavior persists it is a good idea to go to the vet for a checkup.</string>
+    <string name="month_update">Last updated 1 month ago</string>
+    <string name="community_answer">Community Feedback</string>
+    <string name="user1">DoggoHaver5</string>
+    <string name="user1_tag">15 answers | Berkeley, CA</string>
+    <string name="user1_reply">My dog did the same thing, it just takes time for them to adjust.</string>
+    <string name="day10_update">Last updated 10 days ago</string>
+    <string name="user2">CatCheese33</string>
+    <string name="user2_tag">10 answers | Santa Rosa, CA</string>
+    <string name="user2_reply">Have you been taking your dog on longer walks, he just might be tired.</string>
+    <string name="day5_update">Last updated 5 days ago</string>
+    <string name="add_comment">Type your comment…</string>
+    <string-array name="searchable_animals">
+        <item>Goldfish</item>
+        <item>Golden Koi</item>
+        <item>Golden Retriever</item>
+        <item>German Shepard</item>
+        <item>Turtle</item>
+        <item>Maine Coon</item>
+        <item>Husky</item>
+        <item>Cockatoo</item>
+        <item>Macaw</item>
+        <item>Beagle</item>
+        <item>Hamster</item>
+        <item>Rat</item>
+        <item>Chameleon</item>
+        <item>Budgie</item>
+    </string-array>
+    <string-array name="visibilty">
+        <item>Everyone</item>
+        <item>Only Vets</item>
+        <item>Private</item>
+    </string-array>
+    <string name="attach">Attachments</string>
+    <string name="animal_lookUp">Search For Animal Here</string>
+    <string name="share">Share</string>
+    <string name="more_info">More Info</string>
+    <string name="home_action_title">Home</string>
+    <string name="home_title1">Dog is Sleeping 12 Hours A Day</string>
+    <string name="home_title2">My parrot has become very loud during the night</string>
+    <string name="home_title3">Funny Lizard Behavior</string>
+    <string name="home_subtitle1">4 hours ago • German Shepherd • 10 months old</string>
+    <string name="home_subtitle2">10 hours ago • Cockatoo Parakeet • 1 year old</string>
+    <string name="home_subtitle3">1 day ago • Caiman Lizard • 10 months old</string>
+    <string name="home_paragraph2">Ever since I got my parakeet a new cage it starts chirping a lot more frequently. Any advice on how to solve this issue is appreciated! </string>
+    <string name="home_paragraph3">Lizard keeps hiding its food in the sand before eating it. Is this behavior okay or do I need....</string>
+    <string name="home_comments1">100 comments</string>
+    <string name="home_comments2">50 comments</string>
+    <string name="home_comments3">50 comments</string>
+    <string name="helpful_links_title1">Tetrafin Goldfish Flakes</string>
+    <string name="helpful_links_title2">Hikari Fancy Goldfish Pellets</string>
+    <string name="helpful_links_title3">Super Gold Gel Food</string>
+    <string name="helpful_links_description1">This is specially formulated to meet all the nutritional requirements for your fish. They hold their shape when they get wet and they don’t cloud the water.</string>
+    <string name="helpful_links_description2">This high quality pellet food is designed to help bring out the color of the goldfish. Sick fish often like food that sinks to the floor so it’s good to keep around.</string>
+    <string name="helpful_links_description3">This food has high quality ingredients and has proven immunostimulants. It also has ingredients that prevents swim bladder problems in delicate fish</string>
+
+    <string name="resolved_posts">Resolved Posts</string>
+    <string name="resolved_posts_title">Spots on my fish</string>
+    <string name="resolved_posts_subtitle">Goldfish • 1 • Orinda, CA</string>
+    <string name="resolved_posts_post_stats">5 views • 2 comments</string>
+    <string name="resolved_posts_medicine">Medicine Supplies</string>
+
+    <string name="t1">Puppy</string>
+    <string name="t2">Behavior</string>
+    <string name="t3">Urgent</string>
+    <string name="submit">Submit</string>
 </resources>
