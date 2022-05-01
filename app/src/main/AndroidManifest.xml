@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CS160Design07">
         <activity
+            android:name=".MedicineSupplies"
+            android:exported="false" />
+        <activity
             android:name=".SuppliesChecklist"
             android:exported="false" />
         <activity
@@ -24,8 +27,7 @@
         <activity
             android:name=".CreatePost"
             android:exported="false"
-            android:theme="@style/Theme.CS160Design07.NoActionBar"
-            />
+            android:theme="@style/Theme.CS160Design07.NoActionBar" />
         <activity
             android:name=".Singular_Post"
             android:exported="false" />
@@ -40,7 +42,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>
