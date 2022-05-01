@@ -310,12 +310,13 @@
         android:id="@+id/button9"
         android:layout_width="273dp"
         android:layout_height="59dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="116dp"
         android:backgroundTint="@color/primary"
         android:fontFamily="@font/monr"
         android:onClick="toHome"
         android:text="Buy Now"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView40" />
 

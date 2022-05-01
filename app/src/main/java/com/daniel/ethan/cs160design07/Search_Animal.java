@@ -1,13 +1,20 @@
 package com.daniel.ethan.cs160design07;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
+
+import java.util.Arrays;
 
 public class Search_Animal extends AppCompatActivity {
     String[] animals = { "Goldfish", "Golden Koi", "Golden Retriever", "German Shepard", "Turtle", "Maine Coon", "Husky", "Cockatoo", "Macaw", "Beagle", "Hamster", "Rat", "Chameleon", "Budgie"};
@@ -17,9 +24,28 @@ public class Search_Animal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_animal);
+        Arrays.sort(animals);
         listView = findViewById(R.id.allAnimals);
         arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, animals);
         listView.setAdapter(arrayAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                if(((String)adapterView.getItemAtPosition(i)).equals("Goldfish")){
+                    finish();
+                    toInfo(null);
+                }
+
+            }
+        });
+
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setTitle("Explore");
+            actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.primary)));
+
+        }
     }
 
     @Override
@@ -43,6 +69,11 @@ public class Search_Animal extends AppCompatActivity {
             }
         });
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void toInfo(View view) {
+        Intent intent = new Intent(this, AnimalInfo.class);
+        startActivity(intent);
     }
 
 }
