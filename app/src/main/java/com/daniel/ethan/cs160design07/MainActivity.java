@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
                    addPost(null);
                     return false;
                 }
+                if (item.getItemId() == R.id.navigation_explore) {
+                    finish();
+                    toSearch(null);
+                }
                 return false;
             }
 
