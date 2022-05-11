@@ -28,4 +28,9 @@ public class SuppliesChecklist extends AppCompatActivity {
         Intent intent = new Intent(this, HelpfulLinks.class);
         startActivity(intent);
     }
+
+    public void animalInfo(View view) {
+        Intent intent = new Intent(this, AnimalInfo.class);
+        startActivity(intent);
+    }
 }
