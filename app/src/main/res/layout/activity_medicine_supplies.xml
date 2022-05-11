@@ -55,7 +55,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#00FFFFFF"
-        android:onClick="toHome"
+        android:onClick="prevActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_backward_ios" />
@@ -172,8 +172,8 @@
                 android:focusable="true"
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
-                android:textSize="11sp"
-                android:text="Water Test Kit">
+                android:text="Water Test Kit"
+                android:textSize="11sp">
 
             </CheckBox>
 
@@ -307,7 +307,7 @@
         app:srcCompat="@drawable/ic_baseline_local_parking_24" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/buy"
         android:layout_width="273dp"
         android:layout_height="59dp"
         android:layout_marginTop="120dp"

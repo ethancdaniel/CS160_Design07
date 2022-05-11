@@ -18,4 +18,9 @@ public class ResolvedPosts extends AppCompatActivity {
         Intent intent = new Intent(this, MedicineSupplies.class);
         startActivity(intent);
     }
+
+    public void petInfo(View view) {
+        Intent intent = new Intent(this, AnimalInfo.class);
+        startActivity(intent);
+    }
 }

@@ -28,4 +28,9 @@ public class AnimalInfo extends AppCompatActivity {
         Intent intent = new Intent(this, ResolvedPosts.class);
         startActivity(intent);
     }
+
+    public void toSearch(View view) {
+        Intent intent = new Intent(this, Search_Animal.class);
+        startActivity(intent);
+    }
 }
