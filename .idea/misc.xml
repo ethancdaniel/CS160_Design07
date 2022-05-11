@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_create_account.xml" value="0.35778985507246375" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_create_post.xml" value="0.25" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_medicine_supplies.xml" value="0.5" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_resolved_posts.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/abdoo/Desktop/CS160_Design07/app/src/main/res/layout/activity_supplies_checklist.xml" value="0.1762917933130699" />
         <entry key="app/src/main/res/drawable/checked_box.xml" value="0.184" />
         <entry key="app/src/main/res/drawable/drawable.xml" value="0.184" />
         <entry key="app/src/main/res/drawable/ic_baseline_local_parking_24.xml" value="0.136" />
