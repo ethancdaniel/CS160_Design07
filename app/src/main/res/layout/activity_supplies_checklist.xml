@@ -48,13 +48,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#00FFFFFF"
-        android:onClick="toInfo"
+        android:onClick="toHome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_backward_ios" />
@@ -86,7 +86,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Water Tank">
+                android:text="Water Tank">
 
             </CheckBox>
 
@@ -130,7 +130,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Water Filter">
+                android:text="Water Filter">
 
             </CheckBox>
 
@@ -176,7 +176,7 @@
                 android:onClick="toFoodInfo"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Food">
+                android:text="Food">
 
             </CheckBox>
 
@@ -211,7 +211,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Net">
+                android:text="Net">
 
             </CheckBox>
 
@@ -247,7 +247,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Aquarium Heater">
+                android:text="Aquarium Heater">
 
             </CheckBox>
 
@@ -282,7 +282,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Gravel">
+                android:text="Gravel">
 
             </CheckBox>
 
@@ -317,7 +317,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Water Conditioner">
+                android:text="Water Conditioner">
 
             </CheckBox>
 
@@ -360,7 +360,7 @@
                 android:fontFamily="@font/monr"
                 android:paddingStart="8dp"
                 android:textSize="11sp"
-                tools:text="Lighting">
+                android:text="Lighting">
 
             </CheckBox>
 

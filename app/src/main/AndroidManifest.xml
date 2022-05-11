@@ -11,28 +11,34 @@
         android:theme="@style/Theme.CS160Design07">
         <activity
             android:name=".HelpfulLinks"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".ResolvedPosts"
-            android:exported="false" />
-        <activity
-            android:name=".FoodOptions"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".MedicineSupplies"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".SuppliesChecklist"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".AnimalInfo"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".VerifyAccount"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".CreateAccount"
-            android:exported="false" />
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
+            android:exported="false"
+             />
+
         <activity
             android:name=".CreatePost"
             android:exported="false"
@@ -45,6 +51,7 @@
             android:exported="false" />
         <activity
             android:name=".Login"
+            android:theme="@style/Theme.CS160Design07.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
